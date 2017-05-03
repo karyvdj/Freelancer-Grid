@@ -1,3 +1,20 @@
 /*
  * Estilos de tu proyecto
  */
+nav{
+   background: #2C3E50;
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+   padding: 30px;
+}
+
+nav>a{
+   color: white;
+   font-size: 14px;
+   text-decoration: none;
+ }
+
+ nav>a:first-child{
+   font-size: 30px;
+   font-weight: 1000;
+ }
