@@ -56,7 +56,7 @@ nav a:hover{
   color: white;
   font-size: 1.5em;
 }
-.portfolio{
+.portfolio, .contact{
   padding: 8%;
 }
 .portfolio>article>section>h2{
@@ -78,7 +78,7 @@ nav a:hover{
 .rellenoFila{
   padding: 1.2%;
 }
-#tituloPortfolio, #tituloAbout{
+#tituloPortfolio, #tituloAbout, #tituloContact{
   padding-bottom: 3%;
 }
 .about>article>section>h2{
@@ -92,11 +92,29 @@ nav a:hover{
   line-height: 1.5;
 }
 .about>article>section>button{
-  border-radius: 5px;
+  border-radius: 7px;
   border: 2px solid white;
   padding: 2%;
   color: white;
   font-size: 1.2em;
   background: none;
   margin-top: 4%;
+}
+.about>article>section>button:hover{
+  color: #18bc9c;
+  background: white;
+}
+.contact>article>section>h2{
+  color: #333;
+  font-size: 2.8em;
+}
+.contact>article>section>.fa-star{
+  color: #2C3E50;
+}
+.contact>article>section>div{
+  background:#2C3E50;
+}
+
+.contact>article>form>input{
+  display: block;
 }
