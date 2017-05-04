@@ -30,7 +30,7 @@ nav a:hover{
    color: white;
 }
 
-.inicio{
+.inicio, .about{
   background: #18bc9c;
   padding: 8%;
 }
@@ -40,14 +40,16 @@ nav a:hover{
   color: white;
 }
 .linea{
-  width: 30px;
-  height: 3px;
+  width: 80px;
+  height: 4.8px;
   background: white;
+  display: inline-block;
+  vertical-align:super;
 }
 .fa-star{
   color: white;
   font-size: 1.5em;
-  padding-top: 1%;
+  padding: .5%;
 }
 .inicio>article>section>p{
   padding-top:2%;
@@ -64,6 +66,9 @@ nav a:hover{
 .portfolio>article>section>.fa-star{
   color: #2C3E50;
 }
+.portfolio>article>section>div{
+  background:#2C3E50;
+}
 .portfolio>article>section>img{
   width: 124%;
 }
@@ -73,6 +78,25 @@ nav a:hover{
 .rellenoFila{
   padding: 1.2%;
 }
-#titulo{
+#tituloPortfolio, #tituloAbout{
   padding-bottom: 3%;
+}
+.about>article>section>h2{
+  color: white;
+  font-size: 2.8em;
+}
+.about>article>section>p{
+  color: white;
+  font-size: 1.2em;
+  padding: 2.5%;
+  line-height: 1.5;
+}
+.about>article>section>button{
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 2%;
+  color: white;
+  font-size: 1.2em;
+  background: none;
+  margin-top: 4%;
 }
