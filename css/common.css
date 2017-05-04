@@ -5,6 +5,16 @@
    margin: 0;
    padding: 0;
    font-family: 'Lato', sans-serif;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+
+ *:before,
+ *:after {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
  }
 
  .text-uppercase {
@@ -16,7 +26,7 @@
  }
 
  [class*="col-"]{
-   min-height: 5px;
+   min-height: 7px;
    float: left;
  }
 

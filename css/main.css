@@ -1,20 +1,78 @@
 /*
  * Estilos de tu proyecto
  */
+ header{
+   position: fixed;
+ }
 nav{
    background: #2C3E50;
-   font-weight: bold;
+   font-weight: bolder;
    font-family: 'Montserrat', sans-serif;
-   padding: 30px;
+   padding: 40px;
 }
 
-nav>a{
+nav a{
    color: white;
    font-size: 14px;
    text-decoration: none;
- }
+}
 
- nav>a:first-child{
-   font-size: 30px;
-   font-weight: 1000;
- }
+nav a:hover{
+  color: #18bc9c;
+}
+
+.titulo{
+   font-size: 2em;
+   line-height: 20px;
+}
+
+.titulo:hover{
+   color: white;
+}
+
+.inicio{
+  background: #18bc9c;
+  padding: 8%;
+}
+.inicio>article>section>h1{
+  padding-top:3%;
+  font-size: 4.5em;
+  color: white;
+}
+.linea{
+  width: 30px;
+  height: 3px;
+  background: white;
+}
+.fa-star{
+  color: white;
+  font-size: 1.5em;
+  padding-top: 1%;
+}
+.inicio>article>section>p{
+  padding-top:2%;
+  color: white;
+  font-size: 1.5em;
+}
+.portfolio{
+  padding: 8%;
+}
+.portfolio>article>section>h2{
+  color: #333;
+  font-size: 2.8em;
+}
+.portfolio>article>section>.fa-star{
+  color: #2C3E50;
+}
+.portfolio>article>section>img{
+  width: 124%;
+}
+.portfolio>article>section>img:hover{
+  background: rgba(24,188,156,.9)
+}
+.rellenoFila{
+  padding: 1.2%;
+}
+#titulo{
+  padding-bottom: 3%;
+}
