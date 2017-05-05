@@ -30,9 +30,9 @@ nav a:hover{
    color: white;
 }
 
-.inicio, .about{
+.inicio{
   background: #18bc9c;
-  padding: 8%;
+  padding: 17% 8% 8% 8%;
 }
 .inicio>article>section>h1{
   padding-top:3%;
@@ -81,6 +81,10 @@ nav a:hover{
 #tituloPortfolio, #tituloAbout, #tituloContact{
   padding-bottom: 3%;
 }
+.about{
+  background: #18bc9c;
+  padding: 8%;
+}
 .about>article>section>h2{
   color: white;
   font-size: 2.8em;
@@ -114,7 +118,25 @@ nav a:hover{
 .contact>article>section>div{
   background:#2C3E50;
 }
-
-.contact>article>form>input{
-  display: block;
+form>input,textarea{
+  width: 100%;
+  padding: 20px;
+  font-size: 1.5em;
+  border-top: 1px solid #eee;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+textarea{
+  border-bottom:  1px solid #eee;
+}
+.contact>article>form>button{
+  border-radius: 7px;
+  border: none;
+  background: #18bc9c;
+  padding: 13px 18px;
+  font-size: 1.2em;
+  color: white;
+  font-weight: bold;
+  margin: 20%;
 }
