@@ -167,7 +167,7 @@ footer a{
 footer a:hover{
   text-decoration: underline;
 }
-footer div{
+footer .icoRedes{
   display: inline-block;
   border: 2px solid white;
   width: 50px;
@@ -175,16 +175,12 @@ footer div{
   border-radius: 50%;
   margin: 9% 3%;
   padding: 2.5%;
-}
-footer div>a{
   color: white;
   font-size: 1.2em;
 }
-footer div:hover{
-  background: white;
-}
-footer div>a:hover{
+footer .icoRedes:hover{
   color:#18BC9C;
+  background: white;
 }
 .copyright{
   font-size: .8em;
