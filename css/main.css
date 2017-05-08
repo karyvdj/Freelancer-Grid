@@ -9,7 +9,6 @@ nav{
    font-weight: bolder;
    padding: 40px;
 }
-
 nav a{
    color: white;
    font-size: 14px;
@@ -20,7 +19,6 @@ nav a{
 nav a:hover{
   color: #18bc9c;
 }
-
 .titulo{
    font-size: 1.8em;
    line-height: 20px;
